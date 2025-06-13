@@ -1,0 +1,364 @@
+Sat, 24 May 2025 22:33:31 log_utils.py[line:38] INFO pid: 890
+Sat, 24 May 2025 22:33:31 log_utils.py[line:38] INFO 2025-05-24 22:33:31.368117
+Sat, 24 May 2025 22:33:31 log_utils.py[line:38] INFO Running in GRAPH mode, using device id: 0.
+Sat, 24 May 2025 22:33:31 log_utils.py[line:38] INFO use_ascend : False
+Sat, 24 May 2025 22:33:31 log_utils.py[line:38] INFO running mode: train
+Sat, 24 May 2025 22:33:31 log_utils.py[line:38] INFO train dataset size: 2246
+Sat, 24 May 2025 22:33:31 log_utils.py[line:38] INFO test dataset size: 562
+Sat, 24 May 2025 22:33:31 log_utils.py[line:38] INFO train batch : 70
+Sat, 24 May 2025 22:33:31 log_utils.py[line:38] INFO test batch : 17
+Sat, 24 May 2025 22:33:34 log_utils.py[line:38] INFO model_name: ViT_bs_32
+Sat, 24 May 2025 22:33:34 log_utils.py[line:38] INFO summary_dir: ./summary_dir/summary/ViT_bs_32
+Sat, 24 May 2025 22:33:34 log_utils.py[line:38] INFO ckpt_dir: ./summary_dir/summary/ViT_bs_32/ckpt_dir
+Sat, 24 May 2025 22:33:34 log_utils.py[line:38] INFO number of steps_per_epochs: 70
+Sat, 24 May 2025 22:34:42 log_utils.py[line:38] INFO epoch: 1 train loss: 2.8658044 epoch time: 63.755s step time: 910.786ms
+Sat, 24 May 2025 22:35:21 log_utils.py[line:38] INFO epoch: 2 train loss: 2.7171052 epoch time: 39.739s step time: 567.697ms
+Sat, 24 May 2025 22:36:01 log_utils.py[line:38] INFO epoch: 3 train loss: 2.554125 epoch time: 39.687s step time: 566.959ms
+Sat, 24 May 2025 22:36:40 log_utils.py[line:38] INFO epoch: 4 train loss: 2.3568425 epoch time: 39.207s step time: 560.104ms
+Sat, 24 May 2025 22:37:19 log_utils.py[line:38] INFO epoch: 5 train loss: 2.20459 epoch time: 39.175s step time: 559.639ms
+Sat, 24 May 2025 22:37:59 log_utils.py[line:38] INFO epoch: 6 train loss: 2.0644164 epoch time: 40.069s step time: 572.420ms
+Sat, 24 May 2025 22:38:39 log_utils.py[line:38] INFO epoch: 7 train loss: 1.9269078 epoch time: 39.186s step time: 559.800ms
+Sat, 24 May 2025 22:39:18 log_utils.py[line:38] INFO epoch: 8 train loss: 1.8002034 epoch time: 39.646s step time: 566.374ms
+Sat, 24 May 2025 22:39:57 log_utils.py[line:38] INFO epoch: 9 train loss: 1.6789092 epoch time: 39.045s step time: 557.785ms
+Sat, 24 May 2025 22:40:36 log_utils.py[line:38] INFO epoch: 10 train loss: 1.5599918 epoch time: 39.010s step time: 557.291ms
+Sat, 24 May 2025 22:40:36 log_utils.py[line:38] INFO ================================Start evaluation================================
+Sat, 24 May 2025 22:40:53 log_utils.py[line:38] INFO mean l1_error : 0.029258495963671628, max l1_error : 0.6607030034065247, average l1_error : 0.4648135006427765, min l1_error : 0.34873446822166443, median l1_error : 0.4576549530029297
+Sat, 24 May 2025 22:40:53 log_utils.py[line:38] INFO mean u_error : 0.0374911111943862, max u_error : 1.3091769218444824, average u_error : 0.7760487645864487, min u_error : 0.5232712626457214, median u_error : 0.7160127758979797
+Sat, 24 May 2025 22:40:53 log_utils.py[line:38] INFO mean v_error : 0.024436464314075076, max v_error : 0.40756863355636597, average v_error : 0.31947281764929786, min v_error : 0.25890758633613586, median v_error : 0.3247270733118057
+Sat, 24 May 2025 22:40:53 log_utils.py[line:38] INFO mean p_error : 0.0258478992344702, max p_error : 0.3928031921386719, average p_error : 0.2989189158029416, min p_error : 0.18422961235046387, median p_error : 0.3087668716907501
+Sat, 24 May 2025 22:40:53 log_utils.py[line:38] INFO mean cp_error : 0.034805475679390574, max cp_error : 0.31536927819252014, average cp_error : 0.210370726609493, min cp_error : 0.1218794584274292, median cp_error : 0.21049568057060242
+Sat, 24 May 2025 22:40:53 log_utils.py[line:38] INFO =================================End evaluation=================================
+Sat, 24 May 2025 22:41:32 log_utils.py[line:38] INFO epoch: 11 train loss: 1.4509059 epoch time: 39.422s step time: 563.169ms
+Sat, 24 May 2025 22:42:11 log_utils.py[line:38] INFO epoch: 12 train loss: 1.3475235 epoch time: 38.718s step time: 553.108ms
+Sat, 24 May 2025 22:42:50 log_utils.py[line:38] INFO epoch: 13 train loss: 1.2532918 epoch time: 38.815s step time: 554.495ms
+Sat, 24 May 2025 22:43:29 log_utils.py[line:38] INFO epoch: 14 train loss: 1.1613448 epoch time: 39.253s step time: 560.757ms
+Sat, 24 May 2025 22:44:09 log_utils.py[line:38] INFO epoch: 15 train loss: 1.0882691 epoch time: 39.790s step time: 568.435ms
+Sat, 24 May 2025 22:44:48 log_utils.py[line:38] INFO epoch: 16 train loss: 1.006016 epoch time: 39.195s step time: 559.931ms
+Sat, 24 May 2025 22:45:27 log_utils.py[line:38] INFO epoch: 17 train loss: 0.94442576 epoch time: 39.090s step time: 558.433ms
+Sat, 24 May 2025 22:46:07 log_utils.py[line:38] INFO epoch: 18 train loss: 0.8907715 epoch time: 39.407s step time: 562.953ms
+Sat, 24 May 2025 22:46:46 log_utils.py[line:38] INFO epoch: 19 train loss: 0.8473253 epoch time: 39.146s step time: 559.235ms
+Sat, 24 May 2025 22:47:25 log_utils.py[line:38] INFO epoch: 20 train loss: 0.7923462 epoch time: 39.487s step time: 564.102ms
+Sat, 24 May 2025 22:47:25 log_utils.py[line:38] INFO ================================Start evaluation================================
+Sat, 24 May 2025 22:47:34 log_utils.py[line:38] INFO mean l1_error : 0.021551179425681338, max l1_error : 0.6132307648658752, average l1_error : 0.3663517658543937, min l1_error : 0.1843460351228714, median l1_error : 0.38346877694129944
+Sat, 24 May 2025 22:47:34 log_utils.py[line:38] INFO mean u_error : 0.028485408491071534, max u_error : 1.2911803722381592, average u_error : 0.6359684939003166, min u_error : 0.2782417833805084, median u_error : 0.6314471662044525
+Sat, 24 May 2025 22:47:34 log_utils.py[line:38] INFO mean v_error : 0.01650922855033594, max v_error : 0.27692711353302, average v_error : 0.19323168497751742, min v_error : 0.14484858512878418, median v_error : 0.1893046349287033
+Sat, 24 May 2025 22:47:34 log_utils.py[line:38] INFO mean p_error : 0.01965890244087752, max p_error : 0.4065234661102295, average p_error : 0.26985511934275136, min p_error : 0.09110808372497559, median p_error : 0.31125694513320923
+Sat, 24 May 2025 22:47:34 log_utils.py[line:38] INFO mean cp_error : 0.02568988940295051, max cp_error : 0.30816376209259033, average cp_error : 0.14290114338783658, min cp_error : 0.07846951484680176, median cp_error : 0.13399562239646912
+Sat, 24 May 2025 22:47:34 log_utils.py[line:38] INFO =================================End evaluation=================================
+Sat, 24 May 2025 22:48:14 log_utils.py[line:38] INFO epoch: 21 train loss: 0.7724215 epoch time: 39.553s step time: 565.038ms
+Sat, 24 May 2025 22:48:54 log_utils.py[line:38] INFO epoch: 22 train loss: 0.74036694 epoch time: 39.501s step time: 564.294ms
+Sat, 24 May 2025 22:49:33 log_utils.py[line:38] INFO epoch: 23 train loss: 0.71245396 epoch time: 39.313s step time: 561.609ms
+Sat, 24 May 2025 22:50:12 log_utils.py[line:38] INFO epoch: 24 train loss: 0.6919266 epoch time: 39.017s step time: 557.386ms
+Sat, 24 May 2025 22:50:51 log_utils.py[line:38] INFO epoch: 25 train loss: 0.71456635 epoch time: 39.309s step time: 561.559ms
+Sat, 24 May 2025 22:51:31 log_utils.py[line:38] INFO epoch: 26 train loss: 0.6613625 epoch time: 39.456s step time: 563.652ms
+Sat, 24 May 2025 22:52:11 log_utils.py[line:38] INFO epoch: 27 train loss: 0.64856493 epoch time: 39.886s step time: 569.794ms
+Sat, 24 May 2025 22:52:49 log_utils.py[line:38] INFO epoch: 28 train loss: 0.640792 epoch time: 38.933s step time: 556.183ms
+Sat, 24 May 2025 22:53:28 log_utils.py[line:38] INFO epoch: 29 train loss: 0.6184396 epoch time: 38.990s step time: 557.000ms
+Sat, 24 May 2025 22:54:07 log_utils.py[line:38] INFO epoch: 30 train loss: 0.6290837 epoch time: 38.951s step time: 556.444ms
+Sat, 24 May 2025 22:54:07 log_utils.py[line:38] INFO ================================Start evaluation================================
+Sat, 24 May 2025 22:54:17 log_utils.py[line:38] INFO mean l1_error : 0.01623082927921239, max l1_error : 0.5441284775733948, average l1_error : 0.30565841816475287, min l1_error : 0.13282178342342377, median l1_error : 0.31662148237228394
+Sat, 24 May 2025 22:54:17 log_utils.py[line:38] INFO mean u_error : 0.021605898242662933, max u_error : 1.1209298372268677, average u_error : 0.5095106652006507, min u_error : 0.17878329753875732, median u_error : 0.4930878281593323
+Sat, 24 May 2025 22:54:17 log_utils.py[line:38] INFO mean v_error : 0.012511471505550778, max v_error : 0.252544641494751, average v_error : 0.1694489320849671, min v_error : 0.12127915024757385, median v_error : 0.16259482502937317
+Sat, 24 May 2025 22:54:17 log_utils.py[line:38] INFO mean p_error : 0.014575115952859907, max p_error : 0.41210833191871643, average p_error : 0.2380156541133628, min p_error : 0.06529867649078369, median p_error : 0.2762352228164673
+Sat, 24 May 2025 22:54:17 log_utils.py[line:38] INFO mean cp_error : 0.019455538843484485, max cp_error : 0.2858063578605652, average cp_error : 0.12004874509704463, min cp_error : 0.04472780227661133, median cp_error : 0.11509905755519867
+Sat, 24 May 2025 22:54:17 log_utils.py[line:38] INFO =================================End evaluation=================================
+Sat, 24 May 2025 22:54:57 log_utils.py[line:38] INFO epoch: 31 train loss: 0.59211504 epoch time: 39.718s step time: 567.399ms
+Sat, 24 May 2025 22:55:36 log_utils.py[line:38] INFO epoch: 32 train loss: 0.58501345 epoch time: 39.497s step time: 564.246ms
+Sat, 24 May 2025 22:56:16 log_utils.py[line:38] INFO epoch: 33 train loss: 0.58136904 epoch time: 39.865s step time: 569.507ms
+Sat, 24 May 2025 22:56:55 log_utils.py[line:38] INFO epoch: 34 train loss: 0.5727631 epoch time: 39.319s step time: 561.707ms
+Sat, 24 May 2025 22:57:35 log_utils.py[line:38] INFO epoch: 35 train loss: 0.5642028 epoch time: 39.197s step time: 559.956ms
+Sat, 24 May 2025 22:58:14 log_utils.py[line:38] INFO epoch: 36 train loss: 0.5538088 epoch time: 39.603s step time: 565.762ms
+Sat, 24 May 2025 22:58:54 log_utils.py[line:38] INFO epoch: 37 train loss: 0.5612043 epoch time: 39.565s step time: 565.208ms
+Sat, 24 May 2025 22:59:33 log_utils.py[line:38] INFO epoch: 38 train loss: 0.52439415 epoch time: 39.498s step time: 564.256ms
+Sat, 24 May 2025 23:00:13 log_utils.py[line:38] INFO epoch: 39 train loss: 0.5383792 epoch time: 39.342s step time: 562.026ms
+Sat, 24 May 2025 23:00:52 log_utils.py[line:38] INFO epoch: 40 train loss: 0.544255 epoch time: 39.090s step time: 558.431ms
+Sat, 24 May 2025 23:00:52 log_utils.py[line:38] INFO ================================Start evaluation================================
+Sat, 24 May 2025 23:01:01 log_utils.py[line:38] INFO mean l1_error : 0.013715252061100566, max l1_error : 0.5336135029792786, average l1_error : 0.2736560334314537, min l1_error : 0.0945325493812561, median l1_error : 0.2840586006641388
+Sat, 24 May 2025 23:01:01 log_utils.py[line:38] INFO mean u_error : 0.01901771445922992, max u_error : 1.0465826988220215, average u_error : 0.46835657296811833, min u_error : 0.14743870496749878, median u_error : 0.4423470050096512
+Sat, 24 May 2025 23:01:01 log_utils.py[line:38] INFO mean v_error : 0.009733112419352812, max v_error : 0.1826799213886261, average v_error : 0.11836961555459044, min v_error : 0.07359388470649719, median v_error : 0.11440744996070862
+Sat, 24 May 2025 23:01:01 log_utils.py[line:38] INFO mean p_error : 0.012394929907339461, max p_error : 0.3992854952812195, average p_error : 0.2342419141136548, min p_error : 0.04663354158401489, median p_error : 0.28005164861679077
+Sat, 24 May 2025 23:01:01 log_utils.py[line:38] INFO mean cp_error : 0.016444400391157937, max cp_error : 0.27461522817611694, average cp_error : 0.11444449758924105, min cp_error : 0.03724324703216553, median cp_error : 0.10499688982963562
+Sat, 24 May 2025 23:01:01 log_utils.py[line:38] INFO =================================End evaluation=================================
+Sat, 24 May 2025 23:01:40 log_utils.py[line:38] INFO epoch: 41 train loss: 0.51524425 epoch time: 39.415s step time: 563.070ms
+Sat, 24 May 2025 23:02:19 log_utils.py[line:38] INFO epoch: 42 train loss: 0.5187419 epoch time: 38.843s step time: 554.894ms
+Sat, 24 May 2025 23:02:58 log_utils.py[line:38] INFO epoch: 43 train loss: 0.50869304 epoch time: 39.202s step time: 560.025ms
+Sat, 24 May 2025 23:03:38 log_utils.py[line:38] INFO epoch: 44 train loss: 0.5200289 epoch time: 39.445s step time: 563.495ms
+Sat, 24 May 2025 23:04:17 log_utils.py[line:38] INFO epoch: 45 train loss: 0.51201606 epoch time: 39.193s step time: 559.905ms
+Sat, 24 May 2025 23:04:56 log_utils.py[line:38] INFO epoch: 46 train loss: 0.5029139 epoch time: 39.640s step time: 566.292ms
+Sat, 24 May 2025 23:05:36 log_utils.py[line:38] INFO epoch: 47 train loss: 0.48914942 epoch time: 39.150s step time: 559.290ms
+Sat, 24 May 2025 23:06:15 log_utils.py[line:38] INFO epoch: 48 train loss: 0.4973335 epoch time: 39.161s step time: 559.438ms
+Sat, 24 May 2025 23:06:53 log_utils.py[line:38] INFO epoch: 49 train loss: 0.49224555 epoch time: 38.715s step time: 553.069ms
+Sat, 24 May 2025 23:07:33 log_utils.py[line:38] INFO epoch: 50 train loss: 0.49739754 epoch time: 39.081s step time: 558.296ms
+Sat, 24 May 2025 23:07:33 log_utils.py[line:38] INFO ================================Start evaluation================================
+Sat, 24 May 2025 23:07:42 log_utils.py[line:38] INFO mean l1_error : 0.012544166461071548, max l1_error : 0.5306218862533569, average l1_error : 0.2723590083666803, min l1_error : 0.07741153240203857, median l1_error : 0.2816073000431061
+Sat, 24 May 2025 23:07:42 log_utils.py[line:38] INFO mean u_error : 0.018167307381244266, max u_error : 1.058961033821106, average u_error : 0.4700427735772203, min u_error : 0.1142076849937439, median u_error : 0.45806197822093964
+Sat, 24 May 2025 23:07:42 log_utils.py[line:38] INFO mean v_error : 0.00808837971485713, max v_error : 0.16756193339824677, average v_error : 0.10669047080719953, min v_error : 0.05201396346092224, median v_error : 0.10447927191853523
+Sat, 24 May 2025 23:07:42 log_utils.py[line:38] INFO mean p_error : 0.011376813054084778, max p_error : 0.39940908551216125, average p_error : 0.24034377888721578, min p_error : 0.04714334011077881, median p_error : 0.2827737182378769
+Sat, 24 May 2025 23:07:42 log_utils.py[line:38] INFO mean cp_error : 0.016172859598608577, max cp_error : 0.3043477535247803, average cp_error : 0.122645683148328, min cp_error : 0.03508639335632324, median cp_error : 0.12133659422397614
+Sat, 24 May 2025 23:07:42 log_utils.py[line:38] INFO =================================End evaluation=================================
+Sat, 24 May 2025 23:08:21 log_utils.py[line:38] INFO epoch: 51 train loss: 0.48769456 epoch time: 39.384s step time: 562.632ms
+Sat, 24 May 2025 23:09:00 log_utils.py[line:38] INFO epoch: 52 train loss: 0.46457708 epoch time: 38.975s step time: 556.791ms
+Sat, 24 May 2025 23:09:39 log_utils.py[line:38] INFO epoch: 53 train loss: 0.47689515 epoch time: 38.974s step time: 556.778ms
+Sat, 24 May 2025 23:10:18 log_utils.py[line:38] INFO epoch: 54 train loss: 0.47125864 epoch time: 39.021s step time: 557.445ms
+Sat, 24 May 2025 23:10:58 log_utils.py[line:38] INFO epoch: 55 train loss: 0.46253306 epoch time: 39.412s step time: 563.025ms
+Sat, 24 May 2025 23:11:37 log_utils.py[line:38] INFO epoch: 56 train loss: 0.46434975 epoch time: 39.285s step time: 561.212ms
+Sat, 24 May 2025 23:12:16 log_utils.py[line:38] INFO epoch: 57 train loss: 0.46655226 epoch time: 39.149s step time: 559.265ms
+Sat, 24 May 2025 23:12:56 log_utils.py[line:38] INFO epoch: 58 train loss: 0.4432888 epoch time: 39.747s step time: 567.815ms
+Sat, 24 May 2025 23:13:35 log_utils.py[line:38] INFO epoch: 59 train loss: 0.4387561 epoch time: 39.391s step time: 562.728ms
+Sat, 24 May 2025 23:14:15 log_utils.py[line:38] INFO epoch: 60 train loss: 0.4468518 epoch time: 39.647s step time: 566.380ms
+Sat, 24 May 2025 23:14:15 log_utils.py[line:38] INFO ================================Start evaluation================================
+Sat, 24 May 2025 23:14:24 log_utils.py[line:38] INFO mean l1_error : 0.00952670504065121, max l1_error : 0.4602186679840088, average l1_error : 0.22523527447243824, min l1_error : 0.06442119926214218, median l1_error : 0.2500191405415535
+Sat, 24 May 2025 23:14:24 log_utils.py[line:38] INFO mean u_error : 0.012992623426458415, max u_error : 0.8859222531318665, average u_error : 0.3697653001119547, min u_error : 0.08509647846221924, median u_error : 0.3863677382469177
+Sat, 24 May 2025 23:14:24 log_utils.py[line:38] INFO mean v_error : 0.006840051261379439, max v_error : 0.15796507894992828, average v_error : 0.0882856393684907, min v_error : 0.03779017925262451, median v_error : 0.08490386977791786
+Sat, 24 May 2025 23:14:24 log_utils.py[line:38] INFO mean p_error : 0.008747444762026562, max p_error : 0.37731286883354187, average p_error : 0.21765488424502752, min p_error : 0.045872509479522705, median p_error : 0.25177884101867676
+Sat, 24 May 2025 23:14:24 log_utils.py[line:38] INFO mean cp_error : 0.011319822303074248, max cp_error : 0.21295732259750366, average cp_error : 0.09122467177974827, min cp_error : 0.039998650550842285, median cp_error : 0.08621421456336975
+Sat, 24 May 2025 23:14:24 log_utils.py[line:38] INFO =================================End evaluation=================================
+Sat, 24 May 2025 23:15:04 log_utils.py[line:38] INFO epoch: 61 train loss: 0.4263025 epoch time: 39.701s step time: 567.151ms
+Sat, 24 May 2025 23:15:44 log_utils.py[line:38] INFO epoch: 62 train loss: 0.4238663 epoch time: 39.694s step time: 567.060ms
+Sat, 24 May 2025 23:16:23 log_utils.py[line:38] INFO epoch: 63 train loss: 0.41376996 epoch time: 39.554s step time: 565.053ms
+Sat, 24 May 2025 23:17:03 log_utils.py[line:38] INFO epoch: 64 train loss: 0.40990418 epoch time: 39.250s step time: 560.713ms
+Sat, 24 May 2025 23:17:42 log_utils.py[line:38] INFO epoch: 65 train loss: 0.4158085 epoch time: 39.250s step time: 560.711ms
+Sat, 24 May 2025 23:18:21 log_utils.py[line:38] INFO epoch: 66 train loss: 0.41745332 epoch time: 39.192s step time: 559.884ms
+Sat, 24 May 2025 23:19:00 log_utils.py[line:38] INFO epoch: 67 train loss: 0.4024854 epoch time: 39.148s step time: 559.257ms
+Sat, 24 May 2025 23:19:39 log_utils.py[line:38] INFO epoch: 68 train loss: 0.40530255 epoch time: 39.201s step time: 560.012ms
+Sat, 24 May 2025 23:20:19 log_utils.py[line:38] INFO epoch: 69 train loss: 0.39246255 epoch time: 39.438s step time: 563.400ms
+Sat, 24 May 2025 23:20:58 log_utils.py[line:38] INFO epoch: 70 train loss: 0.38802826 epoch time: 39.443s step time: 563.472ms
+Sat, 24 May 2025 23:20:58 log_utils.py[line:38] INFO ================================Start evaluation================================
+Sat, 24 May 2025 23:21:08 log_utils.py[line:38] INFO mean l1_error : 0.006364032242666273, max l1_error : 0.31793466210365295, average l1_error : 0.17421296401880682, min l1_error : 0.04006500914692879, median l1_error : 0.1942642405629158
+Sat, 24 May 2025 23:21:08 log_utils.py[line:38] INFO mean u_error : 0.008625279509407632, max u_error : 0.548751711845398, average u_error : 0.26623228846994396, min u_error : 0.04944658279418945, median u_error : 0.28350841999053955
+Sat, 24 May 2025 23:21:08 log_utils.py[line:38] INFO mean v_error : 0.004756502971491393, max v_error : 0.11991600692272186, average v_error : 0.06399791445309187, min v_error : 0.028256863355636597, median v_error : 0.06350986659526825
+Sat, 24 May 2025 23:21:08 log_utils.py[line:38] INFO mean p_error : 0.005710313671871144, max p_error : 0.375725656747818, average p_error : 0.192408689242952, min p_error : 0.030483603477478027, median p_error : 0.2170565128326416
+Sat, 24 May 2025 23:21:08 log_utils.py[line:38] INFO mean cp_error : 0.00705143524443402, max cp_error : 0.16966217756271362, average cp_error : 0.05881274338154232, min cp_error : 0.028832316398620605, median cp_error : 0.054973989725112915
+Sat, 24 May 2025 23:21:08 log_utils.py[line:38] INFO =================================End evaluation=================================
+Sat, 24 May 2025 23:21:47 log_utils.py[line:38] INFO epoch: 71 train loss: 0.3941735 epoch time: 39.192s step time: 559.884ms
+Sat, 24 May 2025 23:22:26 log_utils.py[line:38] INFO epoch: 72 train loss: 0.39145476 epoch time: 39.333s step time: 561.906ms
+Sat, 24 May 2025 23:23:05 log_utils.py[line:38] INFO epoch: 73 train loss: 0.38992116 epoch time: 39.119s step time: 558.849ms
+Sat, 24 May 2025 23:23:44 log_utils.py[line:38] INFO epoch: 74 train loss: 0.38158533 epoch time: 39.195s step time: 559.929ms
+Sat, 24 May 2025 23:24:24 log_utils.py[line:38] INFO epoch: 75 train loss: 0.37696317 epoch time: 39.299s step time: 561.411ms
+Sat, 24 May 2025 23:25:03 log_utils.py[line:38] INFO epoch: 76 train loss: 0.37639773 epoch time: 39.282s step time: 561.174ms
+Sat, 24 May 2025 23:25:42 log_utils.py[line:38] INFO epoch: 77 train loss: 0.36989197 epoch time: 39.108s step time: 558.689ms
+Sat, 24 May 2025 23:26:22 log_utils.py[line:38] INFO epoch: 78 train loss: 0.36439162 epoch time: 39.340s step time: 561.994ms
+Sat, 24 May 2025 23:27:01 log_utils.py[line:38] INFO epoch: 79 train loss: 0.3706969 epoch time: 39.813s step time: 568.752ms
+Sat, 24 May 2025 23:27:40 log_utils.py[line:38] INFO epoch: 80 train loss: 0.35738432 epoch time: 39.135s step time: 559.073ms
+Sat, 24 May 2025 23:27:40 log_utils.py[line:38] INFO ================================Start evaluation================================
+Sat, 24 May 2025 23:27:50 log_utils.py[line:38] INFO mean l1_error : 0.005174019784830949, max l1_error : 0.3085590600967407, average l1_error : 0.154852040557136, min l1_error : 0.03733007237315178, median l1_error : 0.16707972437143326
+Sat, 24 May 2025 23:27:50 log_utils.py[line:38] INFO mean u_error : 0.0067925530157106765, max u_error : 0.4980126619338989, average u_error : 0.2278077652787461, min u_error : 0.052334725856781006, median u_error : 0.24248766899108887
+Sat, 24 May 2025 23:27:50 log_utils.py[line:38] INFO mean v_error : 0.004204079755307997, max v_error : 0.13409161567687988, average v_error : 0.05535039878518814, min v_error : 0.030041411519050598, median v_error : 0.05358857475221157
+Sat, 24 May 2025 23:27:50 log_utils.py[line:38] INFO mean p_error : 0.00452542825437644, max p_error : 0.3757149279117584, average p_error : 0.18139795723425992, min p_error : 0.027126431465148926, median p_error : 0.18906506896018982
+Sat, 24 May 2025 23:27:50 log_utils.py[line:38] INFO mean cp_error : 0.006589400582015514, max cp_error : 0.1621023416519165, average cp_error : 0.04611696549417341, min cp_error : 0.02585756778717041, median cp_error : 0.04266968369483948
+Sat, 24 May 2025 23:27:50 log_utils.py[line:38] INFO =================================End evaluation=================================
+Sat, 24 May 2025 23:28:29 log_utils.py[line:38] INFO epoch: 81 train loss: 0.34746814 epoch time: 39.064s step time: 558.064ms
+Sat, 24 May 2025 23:29:08 log_utils.py[line:38] INFO epoch: 82 train loss: 0.3509473 epoch time: 39.297s step time: 561.391ms
+Sat, 24 May 2025 23:29:47 log_utils.py[line:38] INFO epoch: 83 train loss: 0.3556434 epoch time: 39.315s step time: 561.642ms
+Sat, 24 May 2025 23:30:27 log_utils.py[line:38] INFO epoch: 84 train loss: 0.3547278 epoch time: 39.535s step time: 564.785ms
+Sat, 24 May 2025 23:31:06 log_utils.py[line:38] INFO epoch: 85 train loss: 0.33955228 epoch time: 39.398s step time: 562.824ms
+Sat, 24 May 2025 23:31:45 log_utils.py[line:38] INFO epoch: 86 train loss: 0.34603244 epoch time: 39.257s step time: 560.811ms
+Sat, 24 May 2025 23:32:25 log_utils.py[line:38] INFO epoch: 87 train loss: 0.33825004 epoch time: 39.845s step time: 569.219ms
+Sat, 24 May 2025 23:33:05 log_utils.py[line:38] INFO epoch: 88 train loss: 0.33178064 epoch time: 39.242s step time: 560.598ms
+Sat, 24 May 2025 23:33:43 log_utils.py[line:38] INFO epoch: 89 train loss: 0.33477432 epoch time: 38.891s step time: 555.590ms
+Sat, 24 May 2025 23:34:22 log_utils.py[line:38] INFO epoch: 90 train loss: 0.33133873 epoch time: 38.976s step time: 556.793ms
+Sat, 24 May 2025 23:34:22 log_utils.py[line:38] INFO ================================Start evaluation================================
+Sat, 24 May 2025 23:34:32 log_utils.py[line:38] INFO mean l1_error : 0.004499602980692597, max l1_error : 0.2960279881954193, average l1_error : 0.14643257928614997, min l1_error : 0.030825858935713768, median l1_error : 0.16398924589157104
+Sat, 24 May 2025 23:34:32 log_utils.py[line:38] INFO mean u_error : 0.005725040977053782, max u_error : 0.45922571420669556, average u_error : 0.20897258148419068, min u_error : 0.03938770294189453, median u_error : 0.2247401475906372
+Sat, 24 May 2025 23:34:32 log_utils.py[line:38] INFO mean v_error : 0.0036793150117292125, max v_error : 0.13729123771190643, average v_error : 0.05135375422233825, min v_error : 0.02168203890323639, median v_error : 0.04838417284190655
+Sat, 24 May 2025 23:34:32 log_utils.py[line:38] INFO mean p_error : 0.004094454405062339, max p_error : 0.37016695737838745, average p_error : 0.17897140229230418, min p_error : 0.020581722259521484, median p_error : 0.19538694620132446
+Sat, 24 May 2025 23:34:32 log_utils.py[line:38] INFO mean cp_error : 0.004709717776516781, max cp_error : 0.16297447681427002, average cp_error : 0.042932102675823605, min cp_error : 0.018109440803527832, median cp_error : 0.041264623403549194
+Sat, 24 May 2025 23:34:32 log_utils.py[line:38] INFO =================================End evaluation=================================
+Sat, 24 May 2025 23:35:11 log_utils.py[line:38] INFO epoch: 91 train loss: 0.32816088 epoch time: 38.863s step time: 555.191ms
+Sat, 24 May 2025 23:35:49 log_utils.py[line:38] INFO epoch: 92 train loss: 0.3240574 epoch time: 38.874s step time: 555.347ms
+Sat, 24 May 2025 23:36:28 log_utils.py[line:38] INFO epoch: 93 train loss: 0.32290655 epoch time: 38.858s step time: 555.111ms
+Sat, 24 May 2025 23:37:07 log_utils.py[line:38] INFO epoch: 94 train loss: 0.3293703 epoch time: 39.111s step time: 558.733ms
+Sat, 24 May 2025 23:37:46 log_utils.py[line:38] INFO epoch: 95 train loss: 0.31593585 epoch time: 38.838s step time: 554.824ms
+Sat, 24 May 2025 23:38:25 log_utils.py[line:38] INFO epoch: 96 train loss: 0.30925274 epoch time: 39.056s step time: 557.944ms
+Sat, 24 May 2025 23:39:04 log_utils.py[line:38] INFO epoch: 97 train loss: 0.32087773 epoch time: 39.059s step time: 557.984ms
+Sat, 24 May 2025 23:39:43 log_utils.py[line:38] INFO epoch: 98 train loss: 0.315389 epoch time: 38.875s step time: 555.362ms
+Sat, 24 May 2025 23:40:23 log_utils.py[line:38] INFO epoch: 99 train loss: 0.29865646 epoch time: 39.331s step time: 561.864ms
+Sat, 24 May 2025 23:41:01 log_utils.py[line:38] INFO epoch: 100 train loss: 0.3017148 epoch time: 38.811s step time: 554.449ms
+Sat, 24 May 2025 23:41:01 log_utils.py[line:38] INFO ================================Start evaluation================================
+Sat, 24 May 2025 23:41:11 log_utils.py[line:38] INFO mean l1_error : 0.0035334833596339997, max l1_error : 0.2862240970134735, average l1_error : 0.1293195446145118, min l1_error : 0.026178592815995216, median l1_error : 0.13653944432735443
+Sat, 24 May 2025 23:41:11 log_utils.py[line:38] INFO mean u_error : 0.004450457718442468, max u_error : 0.51420658826828, average u_error : 0.17821069660267846, min u_error : 0.03624141216278076, median u_error : 0.17514833807945251
+Sat, 24 May 2025 23:41:11 log_utils.py[line:38] INFO mean v_error : 0.0029093673425343108, max v_error : 0.13497549295425415, average v_error : 0.04468815020792296, min v_error : 0.01698349416255951, median v_error : 0.0416529793292284
+Sat, 24 May 2025 23:41:11 log_utils.py[line:38] INFO mean p_error : 0.003240624031818965, max p_error : 0.3519129753112793, average p_error : 0.165059786180363, min p_error : 0.01675271987915039, median p_error : 0.18457874655723572
+Sat, 24 May 2025 23:41:11 log_utils.py[line:38] INFO mean cp_error : 0.003289291689939359, max cp_error : 0.1080392599105835, average cp_error : 0.030293914763366476, min cp_error : 0.013211369514465332, median cp_error : 0.027027606964111328
+Sat, 24 May 2025 23:41:11 log_utils.py[line:38] INFO =================================End evaluation=================================
+Sat, 24 May 2025 23:41:11 log_utils.py[line:38] INFO ================================Start Plotting================================
+Sat, 24 May 2025 23:41:14 log_utils.py[line:38] INFO ./summary_dir/summary/ViT_bs_32/U_and_cp_compare.png
+Sat, 24 May 2025 23:41:15 log_utils.py[line:38] INFO ================================End Plotting================================
+Sat, 24 May 2025 23:41:15 log_utils.py[line:38] INFO Plot total time: 3.993971586227417 s
+Sat, 24 May 2025 23:41:16 log_utils.py[line:38] INFO epoch_100.ckpt save success
+Sat, 24 May 2025 23:41:55 log_utils.py[line:38] INFO epoch: 101 train loss: 0.29362616 epoch time: 39.420s step time: 563.142ms
+Sat, 24 May 2025 23:42:35 log_utils.py[line:38] INFO epoch: 102 train loss: 0.30098692 epoch time: 39.566s step time: 565.230ms
+Sat, 24 May 2025 23:43:14 log_utils.py[line:38] INFO epoch: 103 train loss: 0.2998085 epoch time: 39.109s step time: 558.705ms
+Sat, 24 May 2025 23:43:53 log_utils.py[line:38] INFO epoch: 104 train loss: 0.2844333 epoch time: 39.121s step time: 558.872ms
+Sat, 24 May 2025 23:44:33 log_utils.py[line:38] INFO epoch: 105 train loss: 0.2829287 epoch time: 39.908s step time: 570.119ms
+Sat, 24 May 2025 23:45:12 log_utils.py[line:38] INFO epoch: 106 train loss: 0.28394195 epoch time: 39.618s step time: 565.976ms
+Sat, 24 May 2025 23:45:52 log_utils.py[line:38] INFO epoch: 107 train loss: 0.28532898 epoch time: 39.027s step time: 557.522ms
+Sat, 24 May 2025 23:46:30 log_utils.py[line:38] INFO epoch: 108 train loss: 0.27585256 epoch time: 38.953s step time: 556.469ms
+Sat, 24 May 2025 23:47:10 log_utils.py[line:38] INFO epoch: 109 train loss: 0.27907395 epoch time: 39.498s step time: 564.260ms
+Sat, 24 May 2025 23:47:49 log_utils.py[line:38] INFO epoch: 110 train loss: 0.2688345 epoch time: 39.254s step time: 560.767ms
+Sat, 24 May 2025 23:47:49 log_utils.py[line:38] INFO ================================Start evaluation================================
+Sat, 24 May 2025 23:47:58 log_utils.py[line:38] INFO mean l1_error : 0.0029028607669341214, max l1_error : 0.24689948558807373, average l1_error : 0.11603962531765266, min l1_error : 0.021874845027923584, median l1_error : 0.12007708847522736
+Sat, 24 May 2025 23:47:58 log_utils.py[line:38] INFO mean u_error : 0.0035989115918603014, max u_error : 0.43546682596206665, average u_error : 0.15333162012564786, min u_error : 0.031069457530975342, median u_error : 0.14099764823913574
+Sat, 24 May 2025 23:47:58 log_utils.py[line:38] INFO mean v_error : 0.002630573245422805, max v_error : 0.13035786151885986, average v_error : 0.041107775283949995, min v_error : 0.014636576175689697, median v_error : 0.03836735896766186
+Sat, 24 May 2025 23:47:58 log_utils.py[line:38] INFO mean p_error : 0.0024790969978579704, max p_error : 0.3323661684989929, average p_error : 0.1536794806666234, min p_error : 0.013023972511291504, median p_error : 0.17356765270233154
+Sat, 24 May 2025 23:47:58 log_utils.py[line:38] INFO mean cp_error : 0.0027039683259585325, max cp_error : 0.08732789754867554, average cp_error : 0.02380326302612529, min cp_error : 0.0098952054977417, median cp_error : 0.021074265241622925
+Sat, 24 May 2025 23:47:58 log_utils.py[line:38] INFO =================================End evaluation=================================
+Sat, 24 May 2025 23:48:38 log_utils.py[line:38] INFO epoch: 111 train loss: 0.27178568 epoch time: 39.141s step time: 559.154ms
+Sat, 24 May 2025 23:49:17 log_utils.py[line:38] INFO epoch: 112 train loss: 0.2717336 epoch time: 39.286s step time: 561.231ms
+Sat, 24 May 2025 23:49:57 log_utils.py[line:38] INFO epoch: 113 train loss: 0.2622042 epoch time: 39.752s step time: 567.891ms
+Sat, 24 May 2025 23:50:36 log_utils.py[line:38] INFO epoch: 114 train loss: 0.26252583 epoch time: 39.503s step time: 564.334ms
+Sat, 24 May 2025 23:51:15 log_utils.py[line:38] INFO epoch: 115 train loss: 0.265232 epoch time: 39.290s step time: 561.284ms
+Sat, 24 May 2025 23:51:54 log_utils.py[line:38] INFO epoch: 116 train loss: 0.25316426 epoch time: 38.937s step time: 556.246ms
+Sat, 24 May 2025 23:52:33 log_utils.py[line:38] INFO epoch: 117 train loss: 0.2552256 epoch time: 39.149s step time: 559.275ms
+Sat, 24 May 2025 23:53:13 log_utils.py[line:38] INFO epoch: 118 train loss: 0.2565206 epoch time: 39.527s step time: 564.675ms
+Sat, 24 May 2025 23:53:54 log_utils.py[line:38] INFO epoch: 119 train loss: 0.25037983 epoch time: 40.769s step time: 582.420ms
+Sat, 24 May 2025 23:54:33 log_utils.py[line:38] INFO epoch: 120 train loss: 0.24478003 epoch time: 38.954s step time: 556.484ms
+Sat, 24 May 2025 23:54:33 log_utils.py[line:38] INFO ================================Start evaluation================================
+Sat, 24 May 2025 23:54:43 log_utils.py[line:38] INFO mean l1_error : 0.002401639269117047, max l1_error : 0.23796196281909943, average l1_error : 0.10587804438203902, min l1_error : 0.019230425357818604, median l1_error : 0.10732171684503555
+Sat, 24 May 2025 23:54:43 log_utils.py[line:38] INFO mean u_error : 0.002864983549122425, max u_error : 0.349056601524353, average u_error : 0.14371809012749615, min u_error : 0.02748894691467285, median u_error : 0.14296814799308777
+Sat, 24 May 2025 23:54:43 log_utils.py[line:38] INFO mean v_error : 0.0020058838897110787, max v_error : 0.13118118047714233, average v_error : 0.03779152149389334, min v_error : 0.013172239065170288, median v_error : 0.03283417783677578
+Sat, 24 May 2025 23:54:43 log_utils.py[line:38] INFO mean p_error : 0.002334050847874845, max p_error : 0.31351977586746216, average p_error : 0.13612452149391174, min p_error : 0.011781692504882812, median p_error : 0.13933619856834412
+Sat, 24 May 2025 23:54:43 log_utils.py[line:38] INFO mean cp_error : 0.0023336390663376626, max cp_error : 0.08021610975265503, average cp_error : 0.02202928181299392, min cp_error : 0.006240904331207275, median cp_error : 0.018425434827804565
+Sat, 24 May 2025 23:54:43 log_utils.py[line:38] INFO =================================End evaluation=================================
+Sat, 24 May 2025 23:55:22 log_utils.py[line:38] INFO epoch: 121 train loss: 0.24195689 epoch time: 39.546s step time: 564.939ms
+Sat, 24 May 2025 23:56:02 log_utils.py[line:38] INFO epoch: 122 train loss: 0.24956055 epoch time: 39.536s step time: 564.797ms
+Sat, 24 May 2025 23:56:42 log_utils.py[line:38] INFO epoch: 123 train loss: 0.23797879 epoch time: 39.644s step time: 566.344ms
+Sat, 24 May 2025 23:57:21 log_utils.py[line:38] INFO epoch: 124 train loss: 0.24445033 epoch time: 39.150s step time: 559.289ms
+Sat, 24 May 2025 23:58:00 log_utils.py[line:38] INFO epoch: 125 train loss: 0.2390177 epoch time: 39.084s step time: 558.336ms
+Sat, 24 May 2025 23:58:39 log_utils.py[line:38] INFO epoch: 126 train loss: 0.23788315 epoch time: 39.576s step time: 565.374ms
+Sat, 24 May 2025 23:59:19 log_utils.py[line:38] INFO epoch: 127 train loss: 0.2306489 epoch time: 39.405s step time: 562.925ms
+Sat, 24 May 2025 23:59:58 log_utils.py[line:38] INFO epoch: 128 train loss: 0.22787648 epoch time: 39.289s step time: 561.274ms
+Sun, 25 May 2025 00:00:38 log_utils.py[line:38] INFO epoch: 129 train loss: 0.22468576 epoch time: 39.606s step time: 565.795ms
+Sun, 25 May 2025 00:01:17 log_utils.py[line:38] INFO epoch: 130 train loss: 0.2293917 epoch time: 39.541s step time: 564.871ms
+Sun, 25 May 2025 00:01:17 log_utils.py[line:38] INFO ================================Start evaluation================================
+Sun, 25 May 2025 00:01:26 log_utils.py[line:38] INFO mean l1_error : 0.0019734401995425716, max l1_error : 0.23605360090732574, average l1_error : 0.09974478500525412, min l1_error : 0.017316460609436035, median l1_error : 0.09385306388139725
+Sun, 25 May 2025 00:01:26 log_utils.py[line:38] INFO mean u_error : 0.002533397199038197, max u_error : 0.34971654415130615, average u_error : 0.13507353876005201, min u_error : 0.027399122714996338, median u_error : 0.13081014156341553
+Sun, 25 May 2025 00:01:26 log_utils.py[line:38] INFO mean v_error : 0.0016401555279598517, max v_error : 0.13674792647361755, average v_error : 0.03645067563218832, min v_error : 0.010346904397010803, median v_error : 0.03008753526955843
+Sun, 25 May 2025 00:01:26 log_utils.py[line:38] INFO mean p_error : 0.0017467679880449876, max p_error : 0.30391818284988403, average p_error : 0.12771014020066052, min p_error : 0.010335683822631836, median p_error : 0.12227386236190796
+Sun, 25 May 2025 00:01:26 log_utils.py[line:38] INFO mean cp_error : 0.0023094184682978425, max cp_error : 0.06057387590408325, average cp_error : 0.01848617848008871, min cp_error : 0.0078352689743042, median cp_error : 0.016205862164497375
+Sun, 25 May 2025 00:01:26 log_utils.py[line:38] INFO =================================End evaluation=================================
+Sun, 25 May 2025 00:02:06 log_utils.py[line:38] INFO epoch: 131 train loss: 0.21832114 epoch time: 39.234s step time: 560.485ms
+Sun, 25 May 2025 00:02:46 log_utils.py[line:38] INFO epoch: 132 train loss: 0.2170291 epoch time: 40.169s step time: 573.843ms
+Sun, 25 May 2025 00:03:26 log_utils.py[line:38] INFO epoch: 133 train loss: 0.21923447 epoch time: 40.217s step time: 574.523ms
+Sun, 25 May 2025 00:04:06 log_utils.py[line:38] INFO epoch: 134 train loss: 0.21381877 epoch time: 40.101s step time: 572.876ms
+Sun, 25 May 2025 00:04:45 log_utils.py[line:38] INFO epoch: 135 train loss: 0.20964554 epoch time: 39.266s step time: 560.947ms
+Sun, 25 May 2025 00:05:25 log_utils.py[line:38] INFO epoch: 136 train loss: 0.20733169 epoch time: 39.159s step time: 559.413ms
+Sun, 25 May 2025 00:06:04 log_utils.py[line:38] INFO epoch: 137 train loss: 0.20376092 epoch time: 39.774s step time: 568.206ms
+Sun, 25 May 2025 00:06:44 log_utils.py[line:38] INFO epoch: 138 train loss: 0.20097494 epoch time: 40.107s step time: 572.956ms
+Sun, 25 May 2025 00:07:24 log_utils.py[line:38] INFO epoch: 139 train loss: 0.19669716 epoch time: 39.332s step time: 561.887ms
+Sun, 25 May 2025 00:08:03 log_utils.py[line:38] INFO epoch: 140 train loss: 0.20621583 epoch time: 39.348s step time: 562.115ms
+Sun, 25 May 2025 00:08:03 log_utils.py[line:38] INFO ================================Start evaluation================================
+Sun, 25 May 2025 00:08:12 log_utils.py[line:38] INFO mean l1_error : 0.0016147115760866333, max l1_error : 0.24038173258304596, average l1_error : 0.09431387088775142, min l1_error : 0.015065978281199932, median l1_error : 0.09220336005091667
+Sun, 25 May 2025 00:08:12 log_utils.py[line:38] INFO mean u_error : 0.0020158656749545653, max u_error : 0.35824310779571533, average u_error : 0.12765025993918672, min u_error : 0.02492833137512207, median u_error : 0.12595021724700928
+Sun, 25 May 2025 00:08:12 log_utils.py[line:38] INFO mean v_error : 0.0013237177010844735, max v_error : 0.1347164362668991, average v_error : 0.03531399860580945, min v_error : 0.007506132125854492, median v_error : 0.02811904065310955
+Sun, 25 May 2025 00:08:12 log_utils.py[line:38] INFO mean p_error : 0.0015045514754841432, max p_error : 0.28543972969055176, average p_error : 0.11997735483900589, min p_error : 0.0075685977935791016, median p_error : 0.11372771859169006
+Sun, 25 May 2025 00:08:12 log_utils.py[line:38] INFO mean cp_error : 0.0018967989667811815, max cp_error : 0.06119507551193237, average cp_error : 0.018560624736196855, min cp_error : 0.005757808685302734, median cp_error : 0.015516787767410278
+Sun, 25 May 2025 00:08:12 log_utils.py[line:38] INFO =================================End evaluation=================================
+Sun, 25 May 2025 00:08:53 log_utils.py[line:38] INFO epoch: 141 train loss: 0.19481632 epoch time: 40.163s step time: 573.758ms
+Sun, 25 May 2025 00:09:32 log_utils.py[line:38] INFO epoch: 142 train loss: 0.19155753 epoch time: 39.512s step time: 564.460ms
+Sun, 25 May 2025 00:10:11 log_utils.py[line:38] INFO epoch: 143 train loss: 0.18564193 epoch time: 39.009s step time: 557.269ms
+Sun, 25 May 2025 00:10:51 log_utils.py[line:38] INFO epoch: 144 train loss: 0.1861766 epoch time: 39.589s step time: 565.558ms
+Sun, 25 May 2025 00:11:30 log_utils.py[line:38] INFO epoch: 145 train loss: 0.1876966 epoch time: 39.421s step time: 563.159ms
+Sun, 25 May 2025 00:12:09 log_utils.py[line:38] INFO epoch: 146 train loss: 0.17714849 epoch time: 38.619s step time: 551.699ms
+Sun, 25 May 2025 00:12:47 log_utils.py[line:38] INFO epoch: 147 train loss: 0.17576304 epoch time: 38.646s step time: 552.079ms
+Sun, 25 May 2025 00:13:27 log_utils.py[line:38] INFO epoch: 148 train loss: 0.17602265 epoch time: 39.487s step time: 564.102ms
+Sun, 25 May 2025 00:14:07 log_utils.py[line:38] INFO epoch: 149 train loss: 0.17338586 epoch time: 40.094s step time: 572.768ms
+Sun, 25 May 2025 00:14:47 log_utils.py[line:38] INFO epoch: 150 train loss: 0.1700303 epoch time: 39.449s step time: 563.563ms
+Sun, 25 May 2025 00:14:47 log_utils.py[line:38] INFO ================================Start evaluation================================
+Sun, 25 May 2025 00:14:56 log_utils.py[line:38] INFO mean l1_error : 0.0011425904025707174, max l1_error : 0.24311356246471405, average l1_error : 0.0905876809881781, min l1_error : 0.015321671962738037, median l1_error : 0.08544808253645897
+Sun, 25 May 2025 00:14:56 log_utils.py[line:38] INFO mean u_error : 0.0014340081731514895, max u_error : 0.3540259599685669, average u_error : 0.1209672105991665, min u_error : 0.022313177585601807, median u_error : 0.11499083042144775
+Sun, 25 May 2025 00:14:56 log_utils.py[line:38] INFO mean v_error : 0.0009310741785585004, max v_error : 0.12918496131896973, average v_error : 0.033872888360158816, min v_error : 0.008109122514724731, median v_error : 0.0267263762652874
+Sun, 25 May 2025 00:14:56 log_utils.py[line:38] INFO mean p_error : 0.0010626886642592795, max p_error : 0.2820836305618286, average p_error : 0.11692294472938075, min p_error : 0.006486713886260986, median p_error : 0.10984021425247192
+Sun, 25 May 2025 00:14:56 log_utils.py[line:38] INFO mean cp_error : 0.001339163918815115, max cp_error : 0.06965756416320801, average cp_error : 0.01516400880235083, min cp_error : 0.0046762824058532715, median cp_error : 0.012833982706069946
+Sun, 25 May 2025 00:14:56 log_utils.py[line:38] INFO =================================End evaluation=================================
+Sun, 25 May 2025 00:15:35 log_utils.py[line:38] INFO epoch: 151 train loss: 0.16860059 epoch time: 38.743s step time: 553.468ms
+Sun, 25 May 2025 00:16:14 log_utils.py[line:38] INFO epoch: 152 train loss: 0.16286445 epoch time: 39.012s step time: 557.317ms
+Sun, 25 May 2025 00:16:53 log_utils.py[line:38] INFO epoch: 153 train loss: 0.16040552 epoch time: 39.091s step time: 558.440ms
+Sun, 25 May 2025 00:17:32 log_utils.py[line:38] INFO epoch: 154 train loss: 0.16188814 epoch time: 38.917s step time: 555.963ms
+Sun, 25 May 2025 00:18:10 log_utils.py[line:38] INFO epoch: 155 train loss: 0.15647864 epoch time: 38.871s step time: 555.298ms
+Sun, 25 May 2025 00:18:49 log_utils.py[line:38] INFO epoch: 156 train loss: 0.15357876 epoch time: 38.868s step time: 555.255ms
+Sun, 25 May 2025 00:19:28 log_utils.py[line:38] INFO epoch: 157 train loss: 0.14986277 epoch time: 38.859s step time: 555.132ms
+Sun, 25 May 2025 00:20:07 log_utils.py[line:38] INFO epoch: 158 train loss: 0.14665595 epoch time: 39.040s step time: 557.717ms
+Sun, 25 May 2025 00:20:46 log_utils.py[line:38] INFO epoch: 159 train loss: 0.14197478 epoch time: 39.041s step time: 557.733ms
+Sun, 25 May 2025 00:21:25 log_utils.py[line:38] INFO epoch: 160 train loss: 0.14728238 epoch time: 38.886s step time: 555.513ms
+Sun, 25 May 2025 00:21:25 log_utils.py[line:38] INFO ================================Start evaluation================================
+Sun, 25 May 2025 00:21:34 log_utils.py[line:38] INFO mean l1_error : 0.0009348400327486589, max l1_error : 0.236032173037529, average l1_error : 0.08793726309223156, min l1_error : 0.01512389350682497, median l1_error : 0.08418869972229004
+Sun, 25 May 2025 00:21:34 log_utils.py[line:38] INFO mean u_error : 0.0013006642693653703, max u_error : 0.3489503860473633, average u_error : 0.1160638050230987, min u_error : 0.021036922931671143, median u_error : 0.11358588933944702
+Sun, 25 May 2025 00:21:34 log_utils.py[line:38] INFO mean v_error : 0.0007062066990115187, max v_error : 0.12767913937568665, average v_error : 0.03402363991378533, min v_error : 0.009032905101776123, median v_error : 0.027879387140274048
+Sun, 25 May 2025 00:21:34 log_utils.py[line:38] INFO mean p_error : 0.0007976493935155518, max p_error : 0.2784792184829712, average p_error : 0.11372434358824701, min p_error : 0.005563855171203613, median p_error : 0.10607254505157471
+Sun, 25 May 2025 00:21:34 log_utils.py[line:38] INFO mean cp_error : 0.0011212170904721407, max cp_error : 0.06482452154159546, average cp_error : 0.013698988868033184, min cp_error : 0.003473937511444092, median cp_error : 0.011948511004447937
+Sun, 25 May 2025 00:21:34 log_utils.py[line:38] INFO =================================End evaluation=================================
+Sun, 25 May 2025 00:22:13 log_utils.py[line:38] INFO epoch: 161 train loss: 0.13974522 epoch time: 39.051s step time: 557.875ms
+Sun, 25 May 2025 00:22:52 log_utils.py[line:38] INFO epoch: 162 train loss: 0.13950676 epoch time: 38.959s step time: 556.555ms
+Sun, 25 May 2025 00:23:31 log_utils.py[line:38] INFO epoch: 163 train loss: 0.13806644 epoch time: 39.100s step time: 558.565ms
+Sun, 25 May 2025 00:24:10 log_utils.py[line:38] INFO epoch: 164 train loss: 0.12931994 epoch time: 39.449s step time: 563.554ms
+Sun, 25 May 2025 00:24:50 log_utils.py[line:38] INFO epoch: 165 train loss: 0.13341507 epoch time: 39.906s step time: 570.090ms
+Sun, 25 May 2025 00:25:29 log_utils.py[line:38] INFO epoch: 166 train loss: 0.13503787 epoch time: 39.100s step time: 558.567ms
+Sun, 25 May 2025 00:26:10 log_utils.py[line:38] INFO epoch: 167 train loss: 0.130179 epoch time: 40.470s step time: 578.148ms
+Sun, 25 May 2025 00:26:50 log_utils.py[line:38] INFO epoch: 168 train loss: 0.12669903 epoch time: 39.694s step time: 567.052ms
+Sun, 25 May 2025 00:27:29 log_utils.py[line:38] INFO epoch: 169 train loss: 0.1212074 epoch time: 39.525s step time: 564.636ms
+Sun, 25 May 2025 00:28:08 log_utils.py[line:38] INFO epoch: 170 train loss: 0.12050353 epoch time: 39.100s step time: 558.570ms
+Sun, 25 May 2025 00:28:08 log_utils.py[line:38] INFO ================================Start evaluation================================
+Sun, 25 May 2025 00:28:17 log_utils.py[line:38] INFO mean l1_error : 0.0007350805064882426, max l1_error : 0.23803196847438812, average l1_error : 0.08692730607307407, min l1_error : 0.014881213195621967, median l1_error : 0.08292899280786514
+Sun, 25 May 2025 00:28:17 log_utils.py[line:38] INFO mean u_error : 0.0009261545423856553, max u_error : 0.3535560369491577, average u_error : 0.11447396304677515, min u_error : 0.02172797918319702, median u_error : 0.10918217897415161
+Sun, 25 May 2025 00:28:17 log_utils.py[line:38] INFO mean v_error : 0.0005219855400569298, max v_error : 0.13040700554847717, average v_error : 0.0335355845728533, min v_error : 0.00837758183479309, median v_error : 0.027408619411289692
+Sun, 25 May 2025 00:28:17 log_utils.py[line:38] INFO mean p_error : 0.0007571013856624417, max p_error : 0.2802116870880127, average p_error : 0.11277236970251098, min p_error : 0.005184769630432129, median p_error : 0.10495984554290771
+Sun, 25 May 2025 00:28:17 log_utils.py[line:38] INFO mean cp_error : 0.0010535892763394205, max cp_error : 0.061180174350738525, average cp_error : 0.013849959380048163, min cp_error : 0.0037958621978759766, median cp_error : 0.012621790170669556
+Sun, 25 May 2025 00:28:17 log_utils.py[line:38] INFO =================================End evaluation=================================
+Sun, 25 May 2025 00:28:57 log_utils.py[line:38] INFO epoch: 171 train loss: 0.116545714 epoch time: 39.907s step time: 570.099ms
+Sun, 25 May 2025 00:29:37 log_utils.py[line:38] INFO epoch: 172 train loss: 0.11527738 epoch time: 39.623s step time: 566.040ms
+Sun, 25 May 2025 00:30:16 log_utils.py[line:38] INFO epoch: 173 train loss: 0.1149258 epoch time: 39.005s step time: 557.213ms
+Sun, 25 May 2025 00:30:55 log_utils.py[line:38] INFO epoch: 174 train loss: 0.10464833 epoch time: 39.153s step time: 559.322ms
+Sun, 25 May 2025 00:31:35 log_utils.py[line:38] INFO epoch: 175 train loss: 0.103022546 epoch time: 39.538s step time: 564.828ms
+Sun, 25 May 2025 00:32:15 log_utils.py[line:38] INFO epoch: 176 train loss: 0.101357155 epoch time: 39.791s step time: 568.440ms
+Sun, 25 May 2025 00:32:54 log_utils.py[line:38] INFO epoch: 177 train loss: 0.09819366 epoch time: 39.327s step time: 561.809ms
+Sun, 25 May 2025 00:33:33 log_utils.py[line:38] INFO epoch: 178 train loss: 0.09379371 epoch time: 39.481s step time: 564.012ms
+Sun, 25 May 2025 00:34:13 log_utils.py[line:38] INFO epoch: 179 train loss: 0.088152625 epoch time: 39.430s step time: 563.287ms
+Sun, 25 May 2025 00:34:52 log_utils.py[line:38] INFO epoch: 180 train loss: 0.087226234 epoch time: 38.952s step time: 556.461ms
+Sun, 25 May 2025 00:34:52 log_utils.py[line:38] INFO ================================Start evaluation================================
+Sun, 25 May 2025 00:35:01 log_utils.py[line:38] INFO mean l1_error : 0.0005595319055239944, max l1_error : 0.23961055278778076, average l1_error : 0.08653548321008737, min l1_error : 0.015103022567927837, median l1_error : 0.08324997872114182
+Sun, 25 May 2025 00:35:01 log_utils.py[line:38] INFO mean u_error : 0.0007623482687289224, max u_error : 0.35460424423217773, average u_error : 0.11363002520931118, min u_error : 0.022205352783203125, median u_error : 0.107158362865448
+Sun, 25 May 2025 00:35:01 log_utils.py[line:38] INFO mean v_error : 0.000411124382962418, max v_error : 0.13224102556705475, average v_error : 0.0339626982304788, min v_error : 0.008991152048110962, median v_error : 0.02806002087891102
+Sun, 25 May 2025 00:35:01 log_utils.py[line:38] INFO mean p_error : 0.0005051231487681542, max p_error : 0.28156524896621704, average p_error : 0.11201372616650428, min p_error : 0.004625141620635986, median p_error : 0.10433441400527954
+Sun, 25 May 2025 00:35:01 log_utils.py[line:38] INFO mean cp_error : 0.0008340851465404472, max cp_error : 0.06108468770980835, average cp_error : 0.013324637897312641, min cp_error : 0.0026586055755615234, median cp_error : 0.01159416139125824
+Sun, 25 May 2025 00:35:01 log_utils.py[line:38] INFO =================================End evaluation=================================
+Sun, 25 May 2025 00:35:40 log_utils.py[line:38] INFO epoch: 181 train loss: 0.08896062 epoch time: 39.098s step time: 558.539ms
+Sun, 25 May 2025 00:36:19 log_utils.py[line:38] INFO epoch: 182 train loss: 0.08764103 epoch time: 39.434s step time: 563.345ms
+Sun, 25 May 2025 00:36:59 log_utils.py[line:38] INFO epoch: 183 train loss: 0.083716065 epoch time: 39.457s step time: 563.669ms
+Sun, 25 May 2025 00:37:38 log_utils.py[line:38] INFO epoch: 184 train loss: 0.086048976 epoch time: 39.240s step time: 560.565ms
+Sun, 25 May 2025 00:38:17 log_utils.py[line:38] INFO epoch: 185 train loss: 0.08572578 epoch time: 39.352s step time: 562.179ms
+Sun, 25 May 2025 00:38:56 log_utils.py[line:38] INFO epoch: 186 train loss: 0.0864926 epoch time: 38.754s step time: 553.632ms
+Sun, 25 May 2025 00:39:35 log_utils.py[line:38] INFO epoch: 187 train loss: 0.086210504 epoch time: 39.167s step time: 559.535ms
+Sun, 25 May 2025 00:40:15 log_utils.py[line:38] INFO epoch: 188 train loss: 0.08684913 epoch time: 39.698s step time: 567.119ms
+Sun, 25 May 2025 00:40:54 log_utils.py[line:38] INFO epoch: 189 train loss: 0.090153106 epoch time: 39.277s step time: 561.094ms
+Sun, 25 May 2025 00:41:34 log_utils.py[line:38] INFO epoch: 190 train loss: 0.08473171 epoch time: 40.078s step time: 572.544ms
+Sun, 25 May 2025 00:41:34 log_utils.py[line:38] INFO ================================Start evaluation================================
+Sun, 25 May 2025 00:41:44 log_utils.py[line:38] INFO mean l1_error : 0.0005403193371260867, max l1_error : 0.24046921730041504, average l1_error : 0.08632865237236462, min l1_error : 0.015100866556167603, median l1_error : 0.08324472233653069
+Sun, 25 May 2025 00:41:44 log_utils.py[line:38] INFO mean u_error : 0.0007351715912056319, max u_error : 0.35584890842437744, average u_error : 0.1131194258273086, min u_error : 0.022297143936157227, median u_error : 0.10696589946746826
+Sun, 25 May 2025 00:41:44 log_utils.py[line:38] INFO mean v_error : 0.0003978706543635139, max v_error : 0.13378849625587463, average v_error : 0.034054144001428914, min v_error : 0.009118765592575073, median v_error : 0.028144029900431633
+Sun, 25 May 2025 00:41:44 log_utils.py[line:38] INFO mean p_error : 0.0004879155381144408, max p_error : 0.2823033332824707, average p_error : 0.11181238726438845, min p_error : 0.004946887493133545, median p_error : 0.10425388813018799
+Sun, 25 May 2025 00:41:44 log_utils.py[line:38] INFO mean cp_error : 0.0008091891804189585, max cp_error : 0.059971749782562256, average cp_error : 0.01320644177715568, min cp_error : 0.002485215663909912, median cp_error : 0.01159745454788208
+Sun, 25 May 2025 00:41:44 log_utils.py[line:38] INFO =================================End evaluation=================================
+Sun, 25 May 2025 00:42:23 log_utils.py[line:38] INFO epoch: 191 train loss: 0.083885506 epoch time: 39.301s step time: 561.446ms
+Sun, 25 May 2025 00:43:03 log_utils.py[line:38] INFO epoch: 192 train loss: 0.08435702 epoch time: 39.410s step time: 563.006ms
+Sun, 25 May 2025 00:43:42 log_utils.py[line:38] INFO epoch: 193 train loss: 0.085605964 epoch time: 39.836s step time: 569.085ms
+Sun, 25 May 2025 00:44:22 log_utils.py[line:38] INFO epoch: 194 train loss: 0.084032394 epoch time: 39.280s step time: 561.141ms
+Sun, 25 May 2025 00:45:01 log_utils.py[line:38] INFO epoch: 195 train loss: 0.08479197 epoch time: 39.233s step time: 560.468ms
+Sun, 25 May 2025 00:45:40 log_utils.py[line:38] INFO epoch: 196 train loss: 0.08351309 epoch time: 39.209s step time: 560.125ms
+Sun, 25 May 2025 00:46:20 log_utils.py[line:38] INFO epoch: 197 train loss: 0.0865099 epoch time: 39.791s step time: 568.446ms
+Sun, 25 May 2025 00:46:59 log_utils.py[line:38] INFO epoch: 198 train loss: 0.085337214 epoch time: 39.539s step time: 564.844ms
+Sun, 25 May 2025 00:47:38 log_utils.py[line:38] INFO epoch: 199 train loss: 0.08236857 epoch time: 39.060s step time: 557.997ms
+Sun, 25 May 2025 00:48:18 log_utils.py[line:38] INFO epoch: 200 train loss: 0.0847657 epoch time: 39.095s step time: 558.498ms
+Sun, 25 May 2025 00:48:18 log_utils.py[line:38] INFO ================================Start evaluation================================
+Sun, 25 May 2025 00:48:27 log_utils.py[line:38] INFO mean l1_error : 0.0005322567919981392, max l1_error : 0.24006099998950958, average l1_error : 0.08619316702585339, min l1_error : 0.01513450313359499, median l1_error : 0.08307675272226334
+Sun, 25 May 2025 00:48:27 log_utils.py[line:38] INFO mean u_error : 0.0007240423788864384, max u_error : 0.3555542230606079, average u_error : 0.11291486260426395, min u_error : 0.0222623348236084, median u_error : 0.10693007707595825
+Sun, 25 May 2025 00:48:27 log_utils.py[line:38] INFO mean v_error : 0.0003918949035270249, max v_error : 0.13404351472854614, average v_error : 0.03411739543491207, min v_error : 0.009196031838655472, median v_error : 0.028134253807365894
+Sun, 25 May 2025 00:48:27 log_utils.py[line:38] INFO mean p_error : 0.0004808333777712987, max p_error : 0.28213369846343994, average p_error : 0.11154724312398363, min p_error : 0.004909396171569824, median p_error : 0.10457736253738403
+Sun, 25 May 2025 00:48:27 log_utils.py[line:38] INFO mean cp_error : 0.0007995743602377308, max cp_error : 0.05922752618789673, average cp_error : 0.013225258711506338, min cp_error : 0.0022996068000793457, median cp_error : 0.011602699756622314
+Sun, 25 May 2025 00:48:27 log_utils.py[line:38] INFO =================================End evaluation=================================
+Sun, 25 May 2025 00:48:27 log_utils.py[line:38] INFO ================================Start Plotting================================
+Sun, 25 May 2025 00:48:30 log_utils.py[line:38] INFO ./summary_dir/summary/ViT_bs_32/U_and_cp_compare.png
+Sun, 25 May 2025 00:48:30 log_utils.py[line:38] INFO ================================End Plotting================================
+Sun, 25 May 2025 00:48:30 log_utils.py[line:38] INFO Plot total time: 3.1256041526794434 s
+Sun, 25 May 2025 00:48:31 log_utils.py[line:38] INFO epoch_200.ckpt save success
+Sun, 25 May 2025 00:48:31 log_utils.py[line:38] INFO End-to-End total time: 8099.67s
